@@ -6,7 +6,7 @@ This system is intended to provide extensive support for character sheets, compe
 
 ## Install
  - Go to the setup page and choose _Game Systems_.
- - Click the _Install System_ button, and paste in this [manifest link](https://s3-keathley.nyc3.digitaloceanspaces.com/dark-heresy-2nd/system.json)
+ - Click the _Install System_ button, and paste in this [manifest link](https://github.com/Acolyte123/Black-Crusade-rus-vtt/tree/localization/src/system.json)
  - Create a Game World using the "Dark Heresy 2nd Edition" system.
 
 ## Links
