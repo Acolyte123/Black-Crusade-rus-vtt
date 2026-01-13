@@ -10,7 +10,7 @@
   "ACTOR.TYPE_VEHICLE" : "NPC",
 
   "ACTOR.COMBAT": "бой",
-  "ACTOR.MAIN": "main",
+  "ACTOR.MAIN": "обзор",
   "ACTOR.BIOGRAPHY": "биография",
   "ACTOR.GEAR": "снаряжение",
   "ACTOR.CYBERNETICS": "киберимплантаты",
