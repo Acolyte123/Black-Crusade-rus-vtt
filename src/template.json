@@ -16,8 +16,8 @@
                 "size": 4,
                 "characteristics": {
                     "weaponSkill": {
-                        "label": "Weapon Skill",
-                        "short": "WS",
+                        "label": "Ближний Бой",
+                        "short": "ББ",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -25,8 +25,8 @@
                         "cost": 0
                     },
                     "ballisticSkill": {
-                        "label": "Ballistic Skill",
-                        "short": "BS",
+                        "label": "Дальний Бой",
+                        "short": "ДБ",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -34,8 +34,8 @@
                         "cost": 0
                     },
                     "strength": {
-                        "label": "Strength",
-                        "short": "S",
+                        "label": "Сила",
+                        "short": "С",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -43,8 +43,8 @@
                         "cost": 0
                     },
                     "toughness": {
-                        "label": "Toughness",
-                        "short": "T",
+                        "label": "Выносливость",
+                        "short": "Вын",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -52,8 +52,8 @@
                         "cost": 0
                     },
                     "agility": {
-                        "label": "Agility",
-                        "short": "Ag",
+                        "label": "Ловкость",
+                        "short": "Лов",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -61,8 +61,8 @@
                         "cost": 0
                     },
                     "intelligence": {
-                        "label": "Intelligence",
-                        "short": "Int",
+                        "label": "Интеллект",
+                        "short": "Инт",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -70,8 +70,8 @@
                         "cost": 0
                     },
                     "perception": {
-                        "label": "Perception",
-                        "short": "Per",
+                        "label": "Восприятие",
+                        "short": "Вос",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -79,8 +79,8 @@
                         "cost": 0
                     },
                     "willpower": {
-                        "label": "Willpower",
-                        "short": "WP",
+                        "label": "Сила воли",
+                        "short": "СВ",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -88,8 +88,8 @@
                         "cost": 0
                     },
                     "fellowship": {
-                        "label": "Fellowship",
-                        "short": "Fel",
+                        "label": "Общительность",
+                        "short": "Общ",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -97,8 +97,8 @@
                         "cost": 0
                     },
                     "influence": {
-                        "label": "Influence",
-                        "short": "Inf",
+                        "label": "Тёмная Слава",
+                        "short": "ТС",
                         "base": 0,
                         "advance": 0,
                         "modifier": 0,
@@ -121,13 +121,13 @@
                     "rating": 0,
                     "sustained": 0,
                     "defaultPR": 0,
-                    "class": "bound",
+                    "class": "связанный",
                     "cost": 0,
                     "hasFocus": false
                 },
                 "backpack": {
                     "hasBackpack": false,
-                    "name": "Backpack",
+                    "name": "Рюкзак",
                     "isCombatVest": false,
                     "weight": {
                         "max": 30
@@ -135,767 +135,767 @@
                 },
                 "skills": {
                     "acrobatics": {
-                        "label": "Acrobatics",
-                        "characteristics": ["Ag", "S"],
+                        "label": "Акробатика",
+                        "characteristics": ["Лов", "С"],
                         "selectedCharacteristic": "",
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Ag"
+                        "characteristic": "Лов"
                     },
                     "athletics": {
-                        "label": "Athletics",
-                        "characteristics": ["S", "T"],
+                        "label": "Атлетика",
+                        "characteristics": ["С", "Вын"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "S"
+                        "characteristic": "С"
                     },
                     "awareness": {
-                        "label": "Awareness",
-                        "characteristics": ["Per", "Fel", "Int"],
+                        "label": "Бдительность",
+                        "characteristics": ["Вос", "Общ", "Инт"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Per"
+                        "characteristic": "Вос"
                     },
                     "charm": {
-                        "label": "Charm",
-                        "characteristics": ["Fel", "Inf"],
+                        "label": "Обаяние",
+                        "characteristics": ["Общ", "ТС"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Общ"
                     },
                     "command": {
-                        "label": "Command",
-                        "characteristics": ["Fel", "Int", "S", "WP"],
+                        "label": "Командование",
+                        "characteristics": ["Общ", "Инт", "С", "СВ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Общ"
                     },
                     "commerce": {
-                        "label": "Commerce",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Коммерция",
+                        "characteristics": ["Инт", "Общ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "commonLore": {
-                        "label": "Common Lore",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Обыденное Знание",
+                        "characteristics": ["Инт", "Общ"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "adeptaSororitas": {
-                                "label": "Adepta Sororitas",
+                                "label": "Адепта Сороритас",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "adeptusArbites": {
-                                "label": "Adeptus Arbites",
+                                "label": "Адептус Арбитрес",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "adeptusAstartes": {
-                                "label": "Adeptus Astartes",
+                                "label": "Навигаторы",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "adeptusAstraTelepathica": {
-                                "label": "Adeptus Astra Telepathica",
+                                "label": "Адептус Астра Телепатика",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "adeptusMechanicus": {
-                                "label": "Adeptus Mechanicus",
+                                "label": "Адептус Механикус",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "administratum": {
-                                "label": "Administratum",
+                                "label": "Администратум",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "askellonSector": {
-                                "label": "Askellon Sector",
+                                "label": "Иерихонский рубеж",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chartistCaptains": {
-                                "label": "Chartist Captains",
+                                "label": "Внешний фронт",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "collegiaTitanicu": {
-                                "label": "Collegia Titanicu",
+                                "label": "Пространство Коронус",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "ecclesiarchy": {
-                                "label": "Ecclesiarchy",
+                                "label": "Экклезиархия",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialCreed": {
-                                "label": "Imperial Creed",
+                                "label": "Имперское кредо",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialGuard": {
-                                "label": "Imperial Guard",
+                                "label": "Имперская Гвардия",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialNavy": {
-                                "label": "Imperial Navy",
+                                "label": "Имперский Флот",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperium": {
-                                "label": "Imperium",
+                                "label": "Империум",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "navigators": {
-                                "label": "Navigators",
+                                "label": "Силы Планетарной Обороны",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "planetaryDefenceForces": {
-                                "label": "Planetary Defence Forces",
+                                "label": "Сектор Каликсида",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "rogueTraders": {
-                                "label": "Rogue Traders",
+                                "label": "Вольные Торговцы",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "scholaProgenium": {
-                                "label": "Schola Progenium",
+                                "label": "Схола Прогениум",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "tech": {
-                                "label": "Tech",
+                                "label": "Техника",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "underworld": {
-                                "label": "Underworld",
+                                "label": "Вопящий вихрь",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "war": {
-                                "label": "War",
+                                "label": "Война",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "deceive": {
-                        "label": "Deceive",
-                        "characteristics": ["Fel", "Int"],
+                        "label": "Обман",
+                        "characteristics": ["Общ", "Инт"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Общ"
                     },
                     "dodge": {
-                        "label": "Dodge",
-                        "characteristics": ["Ag"],
+                        "label": "Уклонение",
+                        "characteristics": ["Лов"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Ag"
+                        "characteristic": "Лов"
                     },
                     "forbiddenLore": {
-                        "label": "Forbidden Lore",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Запретное Знание",
+                        "characteristics": ["Инт", "Общ"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "archaeotech": {
-                                "label": "Archaeotech",
+                                "label": "Археотех",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chaosSpaceMarines": {
-                                "label": "Chaos Space Marines",
+                                "label": "Адептус Астартес",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "criminalCartelsAndSmugglers": {
-                                "label": "Criminal Cartels and Smugglers",
+                                "label": "Адептус Механикус",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "daemonology": {
-                                "label": "Daemonology",
+                                "label": "Демонология",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "heresy": {
-                                "label": "Heresy",
+                                "label": "Ересь",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "theHorusHeresyAndTheLongWar": {
-                                "label": "The Horus Heresy and the Long War",
+                                "label": "Ересь Хоруса и Долгая война",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "inquisition": {
-                                "label": "Inquisition",
+                                "label": "Инквизиция",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "mutants": {
-                                "label": "Mutants",
+                                "label": "Мутанты",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "officioAssassinorum": {
-                                "label": "Officio Assassinorum",
+                                "label": "Навигаторы",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "pirates": {
-                                "label": "Pirates",
+                                "label": "Пираты",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "psykers": {
-                                "label": "Psykers",
+                                "label": "Псайкеры",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "theWarp": {
-                                "label": "The Warp",
+                                "label": "Варп",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "xenos": {
-                                "label": "Xenos",
+                                "label": "Ксеносы",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "inquiry": {
-                        "label": "Inquiry",
-                        "characteristics": ["Fel", "Int", "Per"],
+                        "label": "Дознание",
+                        "characteristics": ["Общ", "Инт", "Вос"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Fel"
+                        "characteristic": "Общ"
                     },
                     "interrogation": {
-                        "label": "Interrogation",
-                        "characteristics": ["WP", "Fel"],
+                        "label": "Допрос",
+                        "characteristics": ["СВ", "Общ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "WP"
+                        "characteristic": "СВ"
                     },
                     "intimidate": {
-                        "label": "Intimidate",
-                        "characteristics": ["S", "WP"],
+                        "label": "Запугивание",
+                        "characteristics": ["С", "СВ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "S"
+                        "characteristic": "С"
                     },
                     "linguistics": {
-                        "label": "Linguistics",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Языкознание",
+                        "characteristics": ["Инт", "Общ"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "chapterRunes": {
-                                "label": "Chapter Runes",
+                                "label": "Руны ордена",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chaosMarks": {
-                                "label": "Chaos Marks",
+                                "label": "Знаки Хаоса",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "eldar": {
-                                "label": "Eldar",
+                                "label": "Эльдарский",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "highGothic": {
-                                "label": "High Gothic",
+                                "label": "Высокий Готик",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialCodes": {
-                                "label": "Imperial Codes",
+                                "label": "Имперские коды",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "lowGothic": {
-                                "label": "Low Gothic",
+                                "label": "Низкий Готик",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "mercenary": {
-                                "label": "Mercenary",
+                                "label": "Жаргон наёмников",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "necrontyr": {
-                                "label": "Necrontyr",
+                                "label": "Язык Некронтир",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "ork": {
-                                "label": "Ork",
+                                "label": "Орочий",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "technaLingua": {
-                                "label": "Techna-Lingua",
+                                "label": "Техно-лингва",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "tau": {
-                                "label": "Tau",
+                                "label": "Язык Тау",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "underworld": {
-                                "label": "Underworld",
+                                "label": "Жаргон преступников",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "xenosMarkings": {
-                                "label": "Xenos Markings",
+                                "label": "Метки ксеносов",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "logic": {
-                        "label": "Logic",
-                        "characteristics": ["Int", "Ag"],
+                        "label": "Логика",
+                        "characteristics": ["Инт", "Лов"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "medicae": {
-                        "label": "Medicae",
-                        "characteristics": ["Int", "Ag", "Per"],
+                        "label": "Медика",
+                        "characteristics": ["Инт", "Лов", "Вос"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "navigate": {
-                        "label": "Navigate",
-                        "characteristics": ["Int", "Per"],
+                        "label": "Навигация",
+                        "characteristics": ["Инт", "Вос"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "surface": {
-                                "label": "Surface",
+                                "label": "Планетарная",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "stellar": {
-                                "label": "Stellar",
+                                "label": "Звёздная",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "warp": {
-                                "label": "Warp",
+                                "label": "Варп",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "operate": {
-                        "label": "Operate",
-                        "characteristics": ["Ag", "Int"],
+                        "label": "Управление",
+                        "characteristics": ["Лов", "Инт"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "surface": {
-                                "label": "Surface",
+                                "label": "Наземная техника",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "aeronautica": {
-                                "label": "Aeronautica",
+                                "label": "Аэронавтика",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "voidship": {
-                                "label": "Voidship",
+                                "label": "Пустотные корабли",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Ag"
+                        "characteristic": "Лов"
                     },
                     "parry": {
-                        "label": "Parry",
-                        "characteristics": ["WS"],
+                        "label": "Парирование",
+                        "characteristics": ["ББ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "WS"
+                        "characteristic": "ББ"
                     },
                     "psyniscience": {
-                        "label": "Psyniscience",
-                        "characteristics": ["Per", "WP"],
+                        "label": "Псичувство",
+                        "characteristics": ["Вос", "СВ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Per"
+                        "characteristic": "Вос"
                     },
                     "scholasticLore": {
-                        "label": "Scholastic Lore",
-                        "characteristics": ["Int", "Fel"],
+                        "label": "Учёное Знание",
+                        "characteristics": ["Инт", "Общ"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "astromancy": {
-                                "label": "Astromancy",
+                                "label": "Астромантия",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "beasts": {
-                                "label": "Beasts",
+                                "label": "Звери",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "bureaucracy": {
-                                "label": "Bureaucracy",
+                                "label": "Бюрократия",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chymistry": {
-                                "label": "Chymistry",
+                                "label": "Химия",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "cryptology": {
-                                "label": "Cryptology",
+                                "label": "Криптология",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "heraldry": {
-                                "label": "Heraldry",
+                                "label": "Геральдика",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "imperialWarrants": {
-                                "label": "Imperial Warrants",
+                                "label": "Имперские патенты",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "judgement": {
-                                "label": "Judgement",
+                                "label": "Правосудие",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "legend": {
-                                "label": "Legend",
+                                "label": "Легенды",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "numerology": {
-                                "label": "Numerology",
+                                "label": "Нумерология",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "occult": {
-                                "label": "Occult",
+                                "label": "Оккультизм",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "philosophy": {
-                                "label": "Philosophy",
+                                "label": "Имперское кредо",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "tacticaImperialis": {
-                                "label": "Tactica Imperialis",
+                                "label": "Тактика Империалис",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "scrutiny": {
-                        "label": "Scrutiny",
-                        "characteristics": ["Per", "Fel"],
+                        "label": "Проницательность",
+                        "characteristics": ["Вос", "Общ"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Per"
+                        "characteristic": "Вос"
                     },
                     "security": {
-                        "label": "Security",
-                        "characteristics": ["Int", "Ag"],
+                        "label": "Безопасность",
+                        "characteristics": ["Инт", "Лов"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "sleightOfHand": {
-                        "label": "Sleight of Hand",
-                        "characteristics": ["Ag", "Int"],
+                        "label": "Ловкость рук",
+                        "characteristics": ["Лов", "Инт"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Ag"
+                        "characteristic": "Лов"
                     },
                     "stealth": {
-                        "label": "Stealth",
-                        "characteristics": ["Ag", "Per"],
+                        "label": "Скрытность",
+                        "characteristics": ["Лов", "Вос"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Ag"
+                        "characteristic": "Лов"
                     },
                     "survival": {
-                        "label": "Survival",
-                        "characteristics": ["Per", "Ag", "Int"],
+                        "label": "Выживание",
+                        "characteristics": ["Вос", "Лов", "Инт"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Per"
+                        "characteristic": "Вос"
                     },
                     "techUse": {
-                        "label": "Tech Use",
-                        "characteristics": ["Int", "Ag"],
+                        "label": "Техпользование",
+                        "characteristics": ["Инт", "Лов"],
                         "advance": 0,
                         "isSpecialist": false,
                         "specialities": {},
                         "cost": 0,
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     },
                     "trade": {
-                        "label": "Trade",
-                        "characteristics": ["Int", "Ag", "Fel"],
+                        "label": "Ремесло",
+                        "characteristics": ["Инт", "Лов", "Общ"],
                         "advance": 0,
                         "isSpecialist": true,
                         "specialities": {
                             "agri": {
-                                "label": "Agri",
+                                "label": "Агро",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "archaeologist": {
-                                "label": "Archaeologist",
+                                "label": "Археолог",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "armourer": {
-                                "label": "Armourer",
+                                "label": "Оружейник",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "astrographer": {
-                                "label": "Astrographer",
+                                "label": "Астрограф",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "chymist": {
-                                "label": "Chymist",
+                                "label": "Химик",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "cryptographer": {
-                                "label": "Cryptographer",
+                                "label": "Криптограф",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "cook": {
-                                "label": "Cook",
+                                "label": "Повар",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "explorator": {
-                                "label": "Explorator",
+                                "label": "Эксплоратор",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "linguist": {
-                                "label": "Linguist",
+                                "label": "Языковед",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "loremancer": {
-                                "label": "Loremancer",
+                                "label": "Летописец",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "morticator": {
-                                "label": "Morticator",
+                                "label": "Мортификатор",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "performancer": {
-                                "label": "Performancer",
+                                "label": "Исполнитель",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "prospector": {
-                                "label": "Prospector",
+                                "label": "Геолог",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "scrimshawer": {
-                                "label": "Scrimshawer",
+                                "label": "Резчик",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "sculptor": {
-                                "label": "Sculptor",
+                                "label": "Скульптор",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "shipwright": {
-                                "label": "Shipwright",
+                                "label": "Корабел",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "soothsayer": {
-                                "label": "Soothsayer",
+                                "label": "Предсказатель",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "technomat": {
-                                "label": "Technomat",
+                                "label": "Техномант",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             },
                             "voidfarer": {
-                                "label": "Voidfarer",
+                                "label": "Пустоход",
                                 "advance": 0,
                                 "cost": 0,
                                 "taken": false
                             }
                         },
-                        "characteristic": "Int"
+                        "characteristic": "Инт"
                     }
                 }
             },
@@ -1126,12 +1126,12 @@
             "target": {
                 "bonus": 0,
                 "useSkill": false,
-                "characteristic": "willpower",
+                "characteristic": "Сила воли",
                 "skill": "None",
                 "opposedBonus": 0,
                 "isOpposed": false,
                 "useOpposedSkill": false,
-                "opposed": "willpower",
+                "opposed": "Сила воли",
                 "opposedSkill": "None"
             }
         },
