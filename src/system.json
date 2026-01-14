@@ -21,18 +21,6 @@
   "styles": [
     "css/dark-heresy-2nd.css"
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "ru",
-      "name": "Russian",
-      "path": "lang/ru.json"
-    }
-  ],
   "scripts": [],
   "packs": [
     {
@@ -137,8 +125,8 @@
   "primaryTokenAttribute": "wounds",
   "secondaryTokenAttribute": "fate",
   "url": "https://github.com/Acolyte123/Black-Crusade-rus-vtt",
-  "manifest": "https://raw.githubusercontent.com/Acolyte123/Black-Crusade-rus-vtt/refs/heads/localization/src/system.json",
-  "download": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/Acolyte123/Black-Crusade-rus-vtt/releases/download/v0.9.0/system.json",
+  "download": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/releases/download/v0.9.0/Black-Crusade-rus-vtt.zip",
   "license": "LICENSE.txt",
   "bugs": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/issues"
 }
