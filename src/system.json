@@ -138,7 +138,7 @@
   "secondaryTokenAttribute": "fate",
   "url": "https://github.com/Acolyte123/Black-Crusade-rus-vtt",
   "manifest": "https://raw.githubusercontent.com//Acolyte123/Black-Crusade-rus-vtt/blob/localization/src/system.json",
-  "download": "https://s3-keathley.nyc3.digitaloceanspaces.com/dark-heresy-2nd/dark-heresy-2nd-1.5.2.zip",
+  "download": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/archive/refs/heads/main.zip",
   "license": "LICENSE.txt",
   "bugs": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/issues"
 }
