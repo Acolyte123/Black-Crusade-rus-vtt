@@ -137,7 +137,7 @@
   "primaryTokenAttribute": "wounds",
   "secondaryTokenAttribute": "fate",
   "url": "https://github.com/Acolyte123/Black-Crusade-rus-vtt",
-  "manifest": "https://raw.githubusercontent.com//Acolyte123/Black-Crusade-rus-vtt/blob/localization/src/system.json",
+  "manifest": "https://raw.githubusercontent.com/Acolyte123/Black-Crusade-rus-vtt/refs/heads/localization/src/system.json",
   "download": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/archive/refs/heads/main.zip",
   "license": "LICENSE.txt",
   "bugs": "https://github.com/Acolyte123/Black-Crusade-rus-vtt/issues"
